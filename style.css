@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 
-
 .container{
     border-color: black;
     background-color: rgb(255, 255, 255);
+    width:80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow:hidden;
 }
 
 .col-6{
@@ -50,6 +53,10 @@
     margin-top: 50px;
     justify-content: center;
     flex-direction: row;
+    width:100%;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    overflow:hidden;
 }
 
 /* .content_article_principal{
